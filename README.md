@@ -11,7 +11,7 @@ Beact is a compiler for a new language that improves the HTML language. It uses 
 
 ## Installation
 
-Pre-built packages for Windows, macOS, and Linux are found [here](https://github.com/BirdyWood/beact.kt/releases/latest).
+Installer packages for Windows is found [here](https://github.com/BirdyWood/beact.kt/releases/latest).
 
 ## How to use?
 
