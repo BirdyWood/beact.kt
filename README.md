@@ -35,7 +35,7 @@ beact build
 }
 ```-->
 
-## Usage/Examples
+## Usage/Examples of BML codes
 
 ```html
 <:BigTitle content="BigTitle_content">
