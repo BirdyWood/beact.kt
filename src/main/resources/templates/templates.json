@@ -1,0 +1,12 @@
+[
+  {
+    "id":"layout",
+    "name":"Layout",
+    "src":"layout.bml"
+  },
+  {
+    "id":"basic_components",
+    "name":"Basic Components",
+    "src":"basic_components.bml"
+  }
+]

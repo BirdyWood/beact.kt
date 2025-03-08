@@ -1,0 +1,1 @@
+java -jar %USERPROFILE%\AppData\Local\Beact\Beact.kt.jar %1 %2 %3

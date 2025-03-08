@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Beact-Preview" type="JetRunConfigurationType" show_console_on_std_err="true" show_console_on_std_out="true">
+    <option name="MAIN_CLASS_NAME" value="org.bw.beact.CLIKt" />
+    <module name="Beact.kt" />
+    <option name="PROGRAM_PARAMETERS" value="preview" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

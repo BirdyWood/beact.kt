@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Beact" type="JetRunConfigurationType" show_console_on_std_err="true" show_console_on_std_out="true">
+    <option name="MAIN_CLASS_NAME" value="org.bw.beact.CLIKt" />
+    <module name="Beact.kt" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="Beact.kt:jar" />
+      </option>
+    </method>
+  </configuration>
+</component>

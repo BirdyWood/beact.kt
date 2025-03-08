@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<$import src="test.bml"/>
+<script src="script.js"></script>
+
+<$foreach range="0..10">
+    <div><#times/></div>
+</$foreach>
+<div test="hello">
+    hellos
+    <b>HA</b>
+    <br/>
+    <button>text</button>
+    <div class="heelo">
+        <b>Super cool</b>
+    </div>
+    <Login>
+    <button>J'achète</button>
+    </Login>
+</div>
+<script>
+    console.log('hello')
+</script>

@@ -1,0 +1,17 @@
+<$import src="script.js"/>
+
+<:BigTitle content="BigTitle_content">
+    <h1><#BigTitle_content/> - <#Name/></h1>
+    <hr />
+</:BigTitle>
+
+<Layout title="Test">
+<$foreach range="10..20">
+    <BigTitle Name="Title"><#times/></BigTitle>
+</$foreach>
+</Layout>
+<:Login content="Login_content">
+    <input />
+    <b><#Login_content/></b>
+    <input />
+</:Login>
