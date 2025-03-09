@@ -6,7 +6,7 @@ Beact is a compiler for a new language that improves the HTML language. It uses 
 
 ## Documentation
 
-[Wiki](https://example.com) Not yet available
+[Wiki](https://github.com/BirdyWood/beact.kt/wiki) Not yet available
 
 
 ## Installation
