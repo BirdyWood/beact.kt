@@ -12,8 +12,10 @@ Beact is a compiler for a new language that improves the HTML language. It uses 
 ## Installation
 
 Installer packages for Windows is found [here](https://github.com/BirdyWood/beact.kt/releases/latest).
+
 > [!IMPORTANT]  
 > To execute Beact on your computer, you must **install Java** first.
+
 To check if java is installed on your computer, execute this command in your terminal:
 ```bash
  java -v
