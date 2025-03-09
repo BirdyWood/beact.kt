@@ -1,6 +1,6 @@
 
-![Logo](src/main/resources/drawable/Logo_Icon.svg?raw=true)![Logo](src/main/resources/drawable/Logo_Name.svg?raw=true)
-# 
+![Logo](src/main/resources/drawable/Logo_Icon.svg?raw=true)
+# Beact Markup Language (in Kotlin)
 
 Beact is a compiler for a new language that improves the HTML language. It uses the extension Beact Markup Language (.bml) to give news features to this old language.
 
