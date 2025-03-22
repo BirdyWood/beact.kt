@@ -4,6 +4,7 @@ changelog:
   exclude:
     labels:
       - question
+      - "repo management"
   categories:
     - title: "⚠️ Manjor Changes"
       labels:
