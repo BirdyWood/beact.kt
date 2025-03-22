@@ -29,6 +29,8 @@ To build your project, execute this command
 ```sh
 beact build
 ```
+> [!TIP]
+> Install the official extension for Visual Studio Code [here](https://marketplace.visualstudio.com/items?itemName=BirdyWood.beact-plugin)
 
 <!--You can **customize** the build by creating a `./config_beact.json` file
 
