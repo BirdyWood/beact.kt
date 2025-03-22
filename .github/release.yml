@@ -1,0 +1,25 @@
+# This file contains the template for the "auto-generated release notes"
+
+changelog:
+  exclude:
+    labels:
+      - question
+  categories:
+    - title: "⚠️ Manjor Changes"
+      labels:
+        - Version-Major
+    - title: "🛠 Minor Changes"
+      labels:
+        - Version-Minor
+    - title: "🎉 Exciting New Features"
+      labels:
+        - enhancement
+    - title: "📘 Documentation updates"
+      labels:
+        - "documentation"
+    - title: "🐛 Bug fixes"
+      labels:
+        - "bug"
+    - title: Other Changes
+      labels:
+        - "*"
