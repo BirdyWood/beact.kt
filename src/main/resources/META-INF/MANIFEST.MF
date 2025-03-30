@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: org.bw.beact.CLIKt
-Implementation-Title: Beact.kt
-Implementation-Version: 1.0-SNAPSHOT
-Implementation-Vendor: BirdyWood
-Class-Path: META-INF/libs
-

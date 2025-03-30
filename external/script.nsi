@@ -58,8 +58,12 @@ Section
 	SetOutPath $INSTDIR
 	 
 	# define what to install and place it in the output path
-	File ..\out\artifacts\Beact_kt_jar\Beact.kt.jar
-	File beact.bat
+	# File ..\out\artifacts\Beact_kt_jar\Beact.kt.jar
+	File /oname=beact.exe "..\build\bin\native\debugExecutable\Beact.kt.exe"
+	File /r "..\src\nativeMain\resources\templates"
+	File ..\README.md
+	File ..\LICENSE.md
+	File ..\version.properties
 
 	# create the uninstaller
 	WriteUninstaller "$INSTDIR\uninstall.exe"
