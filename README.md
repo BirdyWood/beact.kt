@@ -1,3 +1,5 @@
+![GitHub Release](https://img.shields.io/github/v/release/birdywood/beact.kt)
+
 
 ![Logo](src/main/resources/drawable/Logo_Icon.svg?raw=true)
 # Beact Markup Language (in Kotlin)
