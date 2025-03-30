@@ -1,4 +1,3 @@
-.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
@@ -42,7 +41,6 @@ bin/
 .DS_Store
 
 ### Custom ###
-out/
 src/nativeMain/resources/test_bml/output/
 external/beact_setup.exe
 version.properties
@@ -63,9 +61,3 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath

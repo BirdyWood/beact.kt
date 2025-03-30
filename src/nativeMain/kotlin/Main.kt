@@ -25,15 +25,7 @@ val ExecutablePathDir: Path by lazy {
     PathRemoveFileSpecW(wstr)
     wstr.toKString().toPath()
 }
-@Serializable
-private data class Message(
-    val topic: String,
-    val content: String,
-)
 
-private val PrettyPrintJson = Json {
-    prettyPrint = true
-}
 
 val CLI = CLIBeact("beact", VersionM.getVersion().toString(), "Beact CLI")
     .command(
@@ -43,7 +35,7 @@ val CLI = CLIBeact("beact", VersionM.getVersion().toString(), "Beact CLI")
             println("Building the project: $args $opts")
 
             val workDir = FileSystem.SYSTEM.canonicalize(".".toPath().resolve(args["target"]?: "")).toString()
-            println("Working Directory = $workDir");
+            println("Working Directory = $workDir")
             /*val currentRelativePath = Paths.get(workDir, target)
             val s = currentRelativePath.toAbsolutePath().toString()
             println("Building the dir: $s")*/
@@ -81,11 +73,6 @@ val CLI = CLIBeact("beact", VersionM.getVersion().toString(), "Beact CLI")
 
 
 fun main(args: Array<String>) {
-    val message = Message(
-        topic = "Kotlin/Native",
-        content = "Hello!"
-
-    )
     CLI.main(args)
 
     /*println(args.joinToString(", "))

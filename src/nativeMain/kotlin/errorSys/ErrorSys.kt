@@ -1,7 +1,5 @@
 package errorSys
 
-import kotlin.system.exitProcess
-
 /**
  * Represents an error system for a specific component.
  *

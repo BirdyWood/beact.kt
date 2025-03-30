@@ -60,7 +60,7 @@ class Parser {
             val nextC = peek()
             if (c == '<') {
                 if (nextC == '/') { // Closing tag
-                    advance(); // skip the '/'
+                    advance() // skip the '/'
 
                     val tagName = closingTag();
                     if (stack.isEmpty()) {
@@ -80,7 +80,7 @@ class Parser {
                             )
                         )
                     }
-                    stack.removeAt(stack.size - 1);
+                    stack.removeAt(stack.size - 1)
 
                 } else if (nextC == '?') { // like <?xml version="1.0" encoding="iso-8859-1"?>
                     skipDeclaration();

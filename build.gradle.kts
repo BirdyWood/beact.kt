@@ -2,7 +2,7 @@ import java.util.Properties
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
-    alias(libs.plugins.kotlinxSerialization)
+    //alias(libs.plugins.kotlinxSerialization)
 }
 
 group = "org.bw.beact"
@@ -41,7 +41,7 @@ kotlin {
 
     sourceSets {
         nativeMain.dependencies {
-            implementation(libs.kotlinxSerializationJson)
+            //implementation(libs.kotlinxSerializationJson)
             implementation("com.squareup.okio:okio:3.10.2")
         }
     }
