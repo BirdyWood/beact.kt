@@ -1,5 +1,5 @@
 
-![Logo](src/main/resources/drawable/Logo_Icon.svg?raw=true)
+![Logo](src/nativeMain/resources/drawable/Logo_Icon.svg?raw=true)
 # Beact Markup Language (in Kotlin)
 
 Beact is a compiler for a new language that improves the HTML language. It uses the extension Beact Markup Language (.bml) to give news features to this old language.
@@ -13,14 +13,8 @@ Beact is a compiler for a new language that improves the HTML language. It uses 
 
 Installer packages for Windows is found [here](https://github.com/BirdyWood/beact.kt/releases/latest).
 
-> [!IMPORTANT]  
-> To execute Beact on your computer, you must **install Java** first.
-
-To check if java is installed on your computer, execute this command in your terminal:
-```bash
- java -v
-```
-If it's installed, you must see the number version of java.
+> [!NOTE]  
+> Since Beact 1.1.0, Java doesn't need to be installed on your computer. The compiler is now written in Kotlin Native and compiled in native code.
 
 ## How to use?
 
