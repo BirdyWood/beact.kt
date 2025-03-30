@@ -6,7 +6,7 @@ changelog:
       - question
       - "repo management"
   categories:
-    - title: "⚠️ Manjor Changes"
+    - title: "⚠️ Major Changes"
       labels:
         - Version-Major
     - title: "🛠 Minor Changes"
