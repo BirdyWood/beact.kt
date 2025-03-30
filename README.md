@@ -15,6 +15,7 @@ Beact is a compiler for a new language that improves the HTML language. It uses 
 
 Installer packages for Windows is found [here](https://github.com/BirdyWood/beact.kt/releases/latest).
 
+For now, any other plateforms is planned.
 > [!NOTE]  
 > Since Beact 1.1.0, Java doesn't need to be installed on your computer. The compiler is now written in Kotlin Native and compiled in native code.
 
