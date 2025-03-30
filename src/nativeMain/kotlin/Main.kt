@@ -4,8 +4,6 @@ import kotlinx.cinterop.UShortVar
 import kotlinx.cinterop.allocArray
 import kotlinx.cinterop.nativeHeap
 import kotlinx.cinterop.toKString
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.Json
 import okio.FileSystem
 import okio.Path
 import okio.Path.Companion.toPath

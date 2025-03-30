@@ -125,15 +125,7 @@ class CLIBeact(val name: String, val version: String = "v1.0.0", val help: Strin
             println("\nCommands:")
             commands.forEach {
                 println("  ${it.key} - ${it.value.help}")
-                //TODO: Add arguments
                 println("    Usage: $name "+ it.value.getUsageString())
-                /*it.value.arguments.forEach {
-                    if (it.required) {
-                        println("    ${it.name} - ${it.help} (required)")
-                    } else {
-                        println("    ${it.name} - ${it.help}")
-                    }
-                }*/
             }
         }
     }
