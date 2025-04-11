@@ -1,9 +1,5 @@
 import generator.Generator
-import kotlinx.cinterop.ExperimentalForeignApi
-import kotlinx.cinterop.UShortVar
-import kotlinx.cinterop.allocArray
-import kotlinx.cinterop.nativeHeap
-import kotlinx.cinterop.toKString
+import kotlinx.cinterop.*
 import okio.FileSystem
 import okio.Path
 import okio.Path.Companion.toPath
@@ -25,7 +21,7 @@ val ExecutablePathDir: Path by lazy {
 }
 
 
-val CLI = CLIBeact("beact", VersionM.getVersion().toString(), "Beact CLI")
+val CLI = CLIBeact("beact", VersionM.getVersion().toString(), "The official Beact CLI")
     .command(
         name = "build",
         help = "Build the proejct",

@@ -1,4 +1,4 @@
-import java.util.Properties
+import java.util.*
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -7,6 +7,7 @@ plugins {
 
 group = "org.bw.beact"
 version = "1.1.0"
+
 
 repositories {
     mavenCentral()
@@ -25,9 +26,18 @@ kotlin {
         else -> throw GradleException("Host OS is not supported in Kotlin/Native.")
     }
 
-    val propertiesFile = file("./version.properties")
+    val nameFile = "./version.properties"
+    val propertiesFile = file(nameFile)
     //propertiesFile.parentFile.mkdirs()
     val properties = Properties()
+    /*file(nameFile).inputStream().use {
+        properties.load(it)
+    }
+
+    val code = properties.getProperty("VERSION_CODE", "0").toInt() + 1
+    properties.setProperty("VERSION_CODE", code.toString())
+
+    properties.setProperty("version", rootProject.version.toString()+"."+code.toString())*/
     properties.setProperty("version", rootProject.version.toString())
     propertiesFile.writer().use { properties.store(it, null) }
 
